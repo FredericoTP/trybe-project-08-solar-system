@@ -1,3 +1,308 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: url('./images/background.png');
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.div-rectangle {
+  align-items: center;
+  display: flex;
+  height: 242.72px;
+  justify-content: center;
+  transform: matrix(1, 0, 0.01, 1, 0, 0);
+  width: 100%;
+}
+
+.div-ellipsis {
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 307.45px;
+  position: absolute;
+  transform: matrix(0.58, 0.78, -0.87, 0.56, 0, 0);
+  width: 120.07px;
+  z-index: -1;
+}
+
+.title-header {
+  color: white;
+  font-family: Space Grotesk , sans-serif;
+  font-size: 70px;
+}
+
+.div-solar-system {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+.title-solar-system {
+  color: white;
+  font-family: Space Grotesk , sans-serif;
+  font-size: 50px;
+  margin: 20px 0 0;
+}
+
+.ul-solar-system {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  width: 90%;
+}
+
+.div-planet {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.planet-name {
+  color: white;
+  font-family: Space Grotesk , sans-serif;
+  font-weight: 700;
+}
+
+.ul-solar-system div:nth-child( 1 ) {
+  width: 3.2%;
+}
+
+.ul-solar-system div:nth-child( 2 ) {
+  width: 7.93%;
+}
+
+.ul-solar-system div:nth-child( 3 ) {
+  width: 8.24%;
+}
+
+.ul-solar-system div:nth-child( 4 ) {
+  width: 5.13%;
+}
+
+.ul-solar-system div:nth-child( 5 ) {
+  width: 21.16%;
+}
+
+.ul-solar-system div:nth-child( 6 ) {
+  width: 21.96%;
+}
+
+.ul-solar-system div:nth-child( 7 ) {
+  width: 11.2%;
+}
+
+.ul-solar-system div:nth-child( 8 ) {
+  width: 11.2%;
+}
+
+.ul-solar-system div:nth-child( 1 ) img {
+  width: 100%;
+}
+
+.ul-solar-system div:nth-child( 2 ) img {
+  width: 100%;
+}
+
+.ul-solar-system div:nth-child( 3 ) img {
+  width: 100%;
+}
+
+.ul-solar-system div:nth-child( 4 ) img {
+  width: 100%;
+}
+
+.ul-solar-system div:nth-child( 5 ) img {
+  width: 100%;
+}
+
+.ul-solar-system div:nth-child( 6 ) img {
+  width: 100%;
+}
+
+.ul-solar-system div:nth-child( 7 ) img {
+  width: 100%;
+}
+
+.ul-solar-system div:nth-child( 8 ) img {
+  width: 100%;
+}
+
+.div-missions {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto 20px;
+  width: 80%;
+}
+
+.ul-missions {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
+}
+
+.div-mission-card {
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid white;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  mix-blend-mode: hard-light;
+  width: 45%;
+}
+
+.mission-card-name {
+  display: flex;
+  justify-content: center;
+}
+
+.mission-card-name p {
+  font-family: Space Grotesk , sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 15px 10px;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.mission-line {
+  border: 1px solid white;
+}
+
+.mission-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.mission-year-country {
+  align-items: center;
+  display: flex;
+  font-family: Space Grotesk , sans-serif;
+}
+
+.mission-year {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 10px;
+}
+
+.mission-country {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.mission-destination {
+  font-family: Space Grotesk , sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 0;
+}
+
+@media screen and ( max-width : 850px ) {
+
+  .div-rectangle {
+    height: 163.63px;
+  }
+
+  .div-ellipsis {
+    height: 207.45px;
+    width: 81.01px;
+  }
+
+  .title-header {
+    font-size: 45px;
+  }
+
+  .title-solar-system {
+    font-size: 35px;
+  }
+
+  .planet-name {
+    font-size: 11px;
+  }
+
+  .mission-card-name p {
+    font-size: 20px;
+  }
+
+  .mission-year, .mission-country, .mission-destination {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and ( max-width : 500px ) {
+
+  .title-solar-system {
+    font-size: 30px;
+  }
+
+  .planet-name {
+    font-size: 7px;
+  }
+
+  .mission-card-name p {
+    font-size: 15px;
+  }
+
+  .mission-year, .mission-country, .mission-destination {
+    font-size: 10px;
+  }
+
+}
+
+@media screen and ( max-width : 310px ) {
+
+  .div-ellipsis {
+    border: 1px solid white;
+  }
+
+  .title-header {
+    font-size: 30px;
+  }
+
+  .title-solar-system {
+    font-size: 25px;
+  }
+
+  .planet-name {
+    font-size: 6px;
+  }
+
+  .ul-missions {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .div-mission-card {
+    width: 90%;
+  }
+
+  .mission-card-name p {
+    font-size: 15px;
+  }
+
+  .mission-year, .mission-country, .mission-destination {
+    font-size: 11px;
+  }
+
 }
