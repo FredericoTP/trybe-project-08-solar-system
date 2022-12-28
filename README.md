@@ -190,6 +190,8 @@ Nesse projeto foi desenvolvido um modelo de sistema solar utilizando o React. Ne
 
 ## 100% :heavy_check_mark:
 
+![Project-Solar-System-Grade](https://github.com/FredericoTP/trybe-project-08-solar-system/blob/main/images/solar-system-grade.png?raw=true)
+
 <br />
 
 ## 3- Preview
