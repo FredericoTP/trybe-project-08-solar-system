@@ -1,10 +1,8 @@
-# :construction: README em construção ! :construction:
-
 # :computer: Trybe-08-Project-Solar-System :computer:
 
 Nesse projeto foi desenvolvido um modelo de sistema solar utilizando o React. Nessa aplicação a pessoa usuária é capaz de visualizar todos os planetas do sistema solar renderizados na tela e visualizar todas as cartas com informações sobre missões espaciais.
 
-# Acesse o projeto clicando [aqui]()! :green_heart:
+# Acesse o projeto clicando [aqui](https://fredericotp.github.io/trybe-project-08-solar-system/)! :green_heart:
 
 <br />
 
@@ -195,3 +193,5 @@ Nesse projeto foi desenvolvido um modelo de sistema solar utilizando o React. Ne
 <br />
 
 ## 3- Preview
+
+![Project-Solar-System-Preview](https://github.com/FredericoTP/trybe-project-08-solar-system/blob/main/images/solar-system-preview.png?raw=true)
